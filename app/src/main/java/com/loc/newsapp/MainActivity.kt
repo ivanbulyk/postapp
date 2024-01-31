@@ -55,7 +55,6 @@ class MainActivity : ComponentActivity() {
                 Box(modifier = Modifier.background(MaterialTheme.colorScheme.background)) {
                     val startDestination = viewModel.startDestination
                     NavGraph(startDestination = startDestination)
-//                    EmptyScreen()
                 }
             }
         }
